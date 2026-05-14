@@ -1,0 +1,161 @@
+body
+{
+    background-color: rgba(3, 78, 3, 0.541);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+nav
+{
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+nav a
+{
+    color:black;
+    padding: 0 80px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: green;
+    text-decoration: none;
+}
+
+img
+{
+    width: 1200px;
+    max-width: 1200px;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+
+.conteiner
+{
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 4px 16px black;
+    padding: 40px;
+}
+
+.conteiner h1
+{
+    font-size: 54px;
+    color:rgb(207, 146, 65);
+}
+
+.conteiner h2
+{
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+.corpo
+{
+    max-width: 1400px;
+    margin: 40px auto;
+    border-radius: 25px;
+    background-color: rgb(11, 59, 26);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+th
+{
+    width: 1100px;
+    color: rgb(11, 59, 26);
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+td
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.table
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caracteristicas
+{
+    font-size: 30px;
+    font-weight: 600;
+
+    width: 1100px;
+    background-color: wheat;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.caracteristicas li
+{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+}
+
+.caracteristicas p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.botao
+{
+    text-decoration: none;
+}
+.botao button
+{
+    max-width: 600px;
+    background-color: rgb(11, 59, 26);
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 25px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.botao button:hover
+{
+    background-color: rgba(7, 102, 7, 0.589);
+    color: black;
+    text-decoration:none;
+}
+
+.botao a
+{
+    text-decoration: none;
+}

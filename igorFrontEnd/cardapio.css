@@ -1,0 +1,182 @@
+body
+{
+    background-color: cadetblue;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: white;
+}
+
+h3
+{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navBar
+{
+    max-width: 1200px;
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 10px;
+    background-image: url(imagem1.jpg) ;
+    box-shadow: rgba(0, 0, 0, 0.329);
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+    color:teal;
+    text-align: center;
+
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.navBar:hover
+{
+    background-image: none;
+    background-color: white;
+    color: black;
+}
+
+.navBar a
+{
+    padding: 0 40px;
+    text-decoration: none;
+}
+
+.navBar a:hover
+{
+    color: teal;
+    padding: 0 40px;
+}
+
+.cardapioPrimeiro
+{
+    max-width: 1200px;
+    margin: 20px auto;
+
+    display: flex;
+    align-items: flex-start;
+}
+.cafeEsp
+{
+    max-width: 600px;
+    padding: 10px 60px;
+    margin: 20px ;
+    border-radius: 10px;
+    background-color: white;
+    justify-self: start;
+
+    font-size: 24px;
+}
+
+.cafeEsp h2
+{
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.cafeEsp img
+{
+    width: 100px;
+    height: 100px;
+    vertical-align:middle;
+    margin-right: 8px;
+}
+
+.bebidasGeladas
+{
+    max-width: 600px;
+    padding: 20px 60px;
+    margin: 20px ;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+    justify-self: start;
+
+    font-size: 24px;
+}
+
+.bebidasGeladas h2
+{
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.bebidasGeladas img
+{
+    width: 100px;
+    height: 80px;
+    vertical-align:middle;
+    margin-right: 8px;
+}
+
+.cardapioSegundo
+{
+    max-width: 1200px;
+    margin: 20px auto;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.docesSobremesas
+{
+    max-width: 600px;
+    padding: 20px 80px;
+    margin: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+    justify-self: start;
+
+    font-size: 24px;
+}
+
+.docesSobremesas h2
+{
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.docesSobremesas img
+{
+    width: 100px;
+    height: 80px;
+    vertical-align:middle;
+    margin-right: 8px;
+}
+
+.salgados
+{
+    max-width: 600px;
+    padding: 20px 60px;
+    margin: 20px ;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+    justify-self: start;
+
+    font-size: 24px;
+}
+
+.salgados h2
+{
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.salgados img
+{
+    width: 100px;
+    height: 80px;
+    vertical-align:middle;
+    margin-right: 8px;
+}
+

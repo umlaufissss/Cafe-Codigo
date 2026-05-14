@@ -1,0 +1,120 @@
+body
+{
+    background-color: cadetblue;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: white;
+}
+
+.navBar
+{
+    max-width: 1200px;
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 10px;
+    background-image: url(imagem1.jpg) ;
+    box-shadow: rgba(0, 0, 0, 0.329);
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+    color:teal;
+    text-align: center;
+
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+
+.navBar:hover
+{
+    background-image: none;
+    background-color: white;
+    color: black;
+}
+
+.navBar a
+{
+    padding: 0 40px;
+    text-decoration: none;
+}
+
+.navBar a:hover
+{
+    color: teal;
+    padding: 0 40px;
+}
+
+.introducao
+{
+    max-width: 1200px;
+    text-align: center;
+    margin: 40px auto;
+}
+.introducao p
+{
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color:aliceblue;
+}
+
+.introducao p em
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+}
+
+.sobreNos
+{
+    max-width: 1200px;
+    padding: 5px 20px;
+    margin: 60px auto;
+    border-radius: 10px;
+    box-shadow: #000000;
+
+    background-color: white;
+    color: teal;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.sobreNos h2
+{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.sobreNos p em
+{
+    color: black;
+    font-size: 30px;
+}
+
+.sobreNos p
+{
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.sobreNos img
+{
+    margin-top: 35px;
+    width: 270px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.textoSobreNos
+{
+    display: flex;
+    flex-direction: column; 
+    flex: 1; 
+}
