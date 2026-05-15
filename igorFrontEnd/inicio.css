@@ -18,6 +18,7 @@ h1
     margin: 40px auto;
     border-radius: 10px;
     background-image: url(imagem1.jpg) ;
+    background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.329);
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
