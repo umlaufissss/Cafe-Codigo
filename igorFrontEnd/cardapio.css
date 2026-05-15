@@ -48,11 +48,12 @@ h3
 {
     padding: 0 40px;
     text-decoration: none;
+    color:teal
 }
 
 .navBar a:hover
 {
-    color: teal;
+    color: black;
     padding: 0 40px;
 }
 

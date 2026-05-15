@@ -1,0 +1,234 @@
+body
+{
+    background-color: cadetblue;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: white;
+}
+
+.navBar
+{
+    max-width: 1200px;
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 10px;
+    background-image: url(imagem1.jpg) ;
+    box-shadow: rgba(0, 0, 0, 0.329);
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+    color:teal;
+    text-align: center;
+
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+
+.navBar:hover
+{
+    background-image: none;
+    background-color: white;
+    color: black;
+}
+
+.navBar a
+{
+    padding: 0 40px;
+    text-decoration: none;
+    color: teal;
+}
+
+.navBar a:hover
+{
+    color: black;
+    padding: 0 40px;
+}
+
+.botoes
+{
+    max-width: 1200px;
+    padding: 20px 40px 0px 40px;
+    margin: 40px auto;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.botoes button
+{
+    padding: 30px;
+    margin: 20px auto;
+
+    text-decoration: none;
+    color: teal;
+    font-size: 20px;
+
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: solid rgba(0, 0, 0, 0.329);
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.3s;
+
+    margin-bottom: 0;
+}
+
+.botaoDicas
+{
+    padding: 0 20px;
+    margin-bottom: 5px;
+}
+
+.botaoDicas button:hover
+{
+    background-color: transparent;
+    background-image: url(zgato.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+
+.botaoNovidades
+{
+    padding: 0 20px;
+    margin-bottom: 5px;
+}
+
+.botaoNovidades button:hover
+{
+    background-color: transparent;
+    background-image: url(zcachorro.jpg);
+    background-size: cover;
+    background-position: center 20%;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+
+.botaoEntrevistas
+{
+    padding: 0 20px;
+    margin-bottom: 5px;
+}
+
+.botaoEntrevistas button:hover
+{
+    background-color: transparent;
+    background-image: url(zpessoa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+
+.blogTec
+{
+    justify-self: center;
+}
+
+.conteudo
+{
+    max-width: 1000px;
+    padding: 0px 40px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 0;
+}
+
+.conteudo p
+{
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.cafeeplay
+{
+    margin-top: 0 50px;
+    padding: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+
+    align-content: center;
+
+    display: flex;
+    align-items: flex-start;
+
+    align-content: center;
+}
+
+.cafeeplay h1
+{
+    padding-top: 5px;
+}
+
+.cafeeplay img
+{
+    margin: auto 20px auto 0;
+    width: 270px;
+    height: auto;
+    flex-shrink: 0;
+
+    border-radius: 10%;
+}
+
+.cafeeplay p
+{
+    color: black;
+    font-size: 20px;
+}
+
+.cafecafe
+{
+    display: flex;
+    flex-direction: column; 
+    padding-right: 30px;
+    flex: 1; 
+}
+
+.cafecafe h2
+{
+    font-size: 36px;
+}
+
+.botone
+{
+    align-self: center;
+}
+
+.botone button
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: auto;
+    text-align: center;
+
+    margin: 20px;
+    padding: 20px;
+    background-color: teal;
+
+    color: white;
+    font-size: 16px;
+
+    border: none;
+    border-radius: 40px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botone button:hover
+{
+    border: solid teal;
+    background-color: white;
+    color: teal;
+}
